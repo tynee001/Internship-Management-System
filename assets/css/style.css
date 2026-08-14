@@ -1,0 +1,63 @@
+/* General */
+body {
+    background-color: #f4f6f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+/* Cards */
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.card-title {
+    font-weight: 600;
+}
+
+/* Tables */
+.table {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table thead th {
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+/* Buttons */
+.btn {
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+/* Form controls */
+.form-control, .form-select {
+    border-radius: 6px;
+}
+
+/* Alerts */
+.alert {
+    border-radius: 8px;
+}
+
+/* Dashboard cards */
+.card.text-white .card-body {
+    padding: 1.5rem;
+}
+
+.display-6 {
+    font-weight: 700;
+}
+
+/* Small improvements */
+.container {
+    max-width: 1100px;
+}
