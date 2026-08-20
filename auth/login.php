@@ -30,6 +30,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
             if($password === $user["password"]) {
                 // logged in successfully
                 $_SESSION["user_id"] = $user["id"];
+                $_SESSION["user_name"] = $user["name"];
                 $_SESSION["user_email"] = $user["email"];
                 $_SESSION["user_role"] = $user["role"];
 
