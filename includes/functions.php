@@ -18,7 +18,7 @@ function isLoggedIn() {
 // force user to login if not logged in
 function requireLogin() {
     if (!isLoggedIn()) {
-        redirect('Internship_management_system/auth/login.php');
+        redirect('auth/login.php');
     }
 }
 
